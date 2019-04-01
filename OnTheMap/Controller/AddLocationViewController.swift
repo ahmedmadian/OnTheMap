@@ -19,7 +19,7 @@ class AddLocationViewController : UIViewController, UITextFieldDelegate {
     
     @IBOutlet weak var linkTextField: UITextField!
     
-    @IBOutlet weak var locationButton: UIButton!
+    @IBOutlet weak var locationButton: RoundedButton!
     
     @IBOutlet weak var activityIndicator: UIActivityIndicatorView!
     
