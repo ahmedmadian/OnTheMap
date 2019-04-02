@@ -276,6 +276,7 @@
                         <outlet property="linkTextField" destination="G8F-Cg-h1e" id="q5N-iy-0Rz"/>
                         <outlet property="locationButton" destination="5TZ-rm-WM8" id="eTM-kO-fII"/>
                         <outlet property="locationTextField" destination="XPa-KQ-iJf" id="Sus-Yh-dWv"/>
+                        <segue destination="dsR-ML-xuw" kind="show" identifier="addLocationSegue" id="hIL-hM-3R0"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TlN-8n-t1k" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -291,7 +292,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="oB5-lS-kbq">
-                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
                             </mapView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D8F-Y7-UGC" customClass="RoundedButton" customModule="OnTheMap" customModuleProvider="target">
                                 <rect key="frame" x="50" y="607" width="275" height="40"/>
